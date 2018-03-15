@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="by.akatsnelson.teachlang.fragment.ParseFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/editText"
+            android:layout_weight="0.50"
+            android:elevation="0dp"
+            android:minHeight="34dp"
+            android:text="@string/enter_btn" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/micOff"
+            android:layout_toStartOf="@+id/micOff"
+            android:layout_weight="0.09"
+            android:ems="10"
+            android:hint="@string/enter_name"
+            android:inputType="textPersonName"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:textAlignment="viewStart"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:textColorLink="@android:color/holo_blue_dark"
+            android:textCursorDrawable="@null"
+            android:textStyle="normal|italic"
+            android:gravity="start" />
+
+        <ImageButton
+            android:id="@+id/micOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView"
+            app:srcCompat="@drawable/ic_mic_off"
+            tools:ignore="VectorDrawableCompat"
+            android:background="#FFFFFF"/>
+
+        <ImageButton
+            android:id="@+id/micOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView"
+            android:background="#FFFFFF"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_mic_on"
+            tools:ignore="VectorDrawableCompat" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.03"
+            android:text="@string/enter_name"
+            android:textAlignment="center"
+            android:textColorLink="@android:color/holo_blue_bright"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/button"
+            android:layout_weight="0.08"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/answer"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="normal|italic"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingRight="5dp"
+            android:text="@string/versionAndAuthor"
+            android:textAlignment="textEnd"
+            android:textStyle="normal|bold|italic"
+            tools:ignore="HardcodedText"
+            android:gravity="end" />
+
+    </RelativeLayout>
+
+</FrameLayout>

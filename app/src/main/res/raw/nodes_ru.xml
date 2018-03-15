@@ -1,0 +1,180 @@
+<nodes>
+    <auxiliary_verb>
+        <node auxialiary_verb="будут" ending="ть" grammeme="[V, indic, fut, p3, pl, nonRefl, act]"/>
+        <node auxialiary_verb="буду" ending="ть" grammeme="[V, indic, fut, p1, sg, nonRefl, act]"/>
+        <node auxialiary_verb="будет" ending="ть" grammeme="[V, indic, fut, p3, sg, nonRefl, act]"/>
+        <node auxialiary_verb="будешь" ending="ть" grammeme="[V, indic, fut, p2, sg, nonRefl, act]"/>
+        <node auxialiary_verb="будете" ending="ть" grammeme="[V, indic, fut, p2, pl, nonRefl, act]"/>
+        <node auxialiary_verb="будем" ending="ть" grammeme="[V, indic, fut, p1, pl, nonRefl, act]"/>
+        <node auxialiary_verb="будут" ending="ться" grammeme="[V, indic, fut, p3, pl, refl, intr]"/>
+        <node auxialiary_verb="буду" ending="ться" grammeme="[V, indic, fut, p1, sg, refl, intr]"/>
+        <node auxialiary_verb="будет" ending="ться" grammeme="[V, indic, fut, p3, sg, refl, intr]"/>
+        <node auxialiary_verb="будешь" ending="ться" grammeme="[V, indic, fut, p2, sg, refl, intr]"/>
+        <node auxialiary_verb="будете" ending="ться" grammeme="[V, indic, fut, p2, pl, refl, intr]"/>
+        <node auxialiary_verb="будем" ending="ться" grammeme="[V, indic, fut, p1, pl, refl, intr]"/>
+        <node auxialiary_verb="б, бы" ending="ла" grammeme="[V, cond, sg, f, nonRefl, act]"/>
+        <node auxialiary_verb="б, бы" ending="ло" grammeme="[V, cond, sg, n, nonRefl, act]"/>
+        <node auxialiary_verb="б, бы" ending="ли" grammeme="[V, cond, pl, nonRefl, act]"/>
+        <node auxialiary_verb="б, бы" ending="л" grammeme="[V, cond, sg, m, nonRefl, act]"/>
+        <node auxialiary_verb="давайте" ending="ться" grammeme="[V, impwe, pl, refl, intr]"/>
+        <node auxialiary_verb="давай" ending="ться" grammeme="[V, imper, pl, refl, intr]"/>
+        <node auxialiary_verb="давайте" ending="ть, ем, ём, им" grammeme="[V, imper, pl, nonRefl, act]"/>
+        <node auxialiary_verb="давай" ending="ть, ем, ём, им" grammeme="[V, imper, sg, nonRefl, act]"/>
+    </auxiliary_verb>
+    <prefix>
+
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="аваем" grammeme="[partcp, praes, brev, sg, m, nonRefl, pass]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ваим" grammeme="[V, conjugII, indic, praes, p1, pl, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ваут, вают" grammeme="[V, conjugI, indic, praes, p3, pl, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ваят" grammeme="[V, conjugII, indic, praes, p3, pl, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ваю" grammeme="[V, indic, praes, p1, sg, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ваете, ваёте" grammeme="[V, conjugI, indic, praes, p2, pl, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ваите" grammeme="[V, conjugII, indic, praes, p2, pl, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ваешь, ваёшь" grammeme="[V, conjugI, indic, praes, p2, sg, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ваишь" grammeme="[V, conjugII, indic, praes, p2, sg, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="вает, ваёт" grammeme="[V, conjugI, indic, praes, p3, sg, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ваит" grammeme="[V, conjugII, indic, praes, p3, sg, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ают" grammeme="[V, conjugI, indic, praes, p3, pl, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ут, ют" grammeme="[V, conjugI, indic, fut, p3, pl, nonRefl, act], [V, conjugI, indic, praes, p3, pl, nonRefl, act, noPref]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ат, ят" grammeme="[V, conjugII, indic, fut, p3, pl, nonRefl, act], [V, conjugII, indic, praes, p3, pl, nonRefl, act, noPref]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ете, ёте" grammeme="[V, conjugI, indic, fut, p2, pl, nonRefl, act], [V, conjugI, indic, praes, p2, pl, nonRefl, act, noPref]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ите" grammeme="[V, conjugII, indic, fut, p2, pl, nonRefl, act], [V, conjugII, indic, praes, p2, pl, nonRefl, act, noPref]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ешь, ёшь" grammeme="[V, conjugI, indic, fut, p2, sg, nonRefl, act], [V, conjugI, indic, praes, p2, sg, nonRefl, act, noPref]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ишь" grammeme="[V, conjugII, indic, fut, p2, sg, nonRefl, act], [V, conjugII, indic, praes, p2, sg, nonRefl, act, noPref]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ет, ёт" grammeme="[V, conjugI, indic, fut, p3, sg, nonRefl, act], [V, conjugI, indic, praes, p3, sg, nonRefl, act, noPref]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ит" grammeme="[V, conjugII, indic, fut, p3, sg, nonRefl, act], [V, conjugII, indic, praes, p3, sg, nonRefl, act, noPref]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ает" grammeme="[V, conjugI, indic, praes, p3, sg, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ную, тую, вшую" grammeme="[partcp, praet, plen, acc, p1, sg, f, nonRefl, pass]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="у, ю" grammeme="[V, indic, fut, p1, sg, nonRefl], [V, indic, praes, p1, sg, nonRefl, noPref]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ном, том" grammeme="[partcp, praet, plen, abl, sg, m, nonRefl, pass], [partcp, praet, plen, abl, sg, n, nonRefl, pass]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="шем" grammeme="[partcp, praet, plen, abl, sg, m, nonRefl, act], [partcp, praet, plen, abl, sg, n, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="ом, ем, ём" grammeme="[V, conjugI, indic, fut, p1, pl, nonRefl], [V, conjugI, indic, praes, p1, pl, nonRefl, noPref]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="шим" grammeme="[partcp, praet, plen, dat, pl, nonRefl, act]"/>
+        <node prefix="под, над, раз, рас, про, при, пре, на, за, в, с, об, по, до, от, о" ending="им" grammeme="[V, conjugII, indic, fut, p1, pl, nonRefl], [V, conjugII, indic, praes, p1, pl, nonRefl, noPref]"/>
+    </prefix>
+    <ending>
+        <node ending="ите" grammeme="[V, imper, p2, pl, nonRefl, act], [V, conjugII, indic, praes, p2, pl, nonRefl, act]"/>
+        <node ending="ился" grammeme="[V, indic, praet, sg, m, refl, intr]"/>
+        <node ending="ную, тую, вшую" grammeme="[partcp, praet, plen, acc, sg, f, nonRefl, pass]"/>
+        <node ending="ла" grammeme="[V, indic, praet, sg, f, nonRefl, act]"/>
+        <node ending="лось" grammeme="[V, indic, praet, sg, n, refl, intr]"/>
+        <node ending="ло" grammeme="[V, indic, praet, sg, n, nonRefl, act]"/>
+        <node ending="лись" grammeme="[V, indic, praet, p1, refl, intr]"/>
+        <node ending="ли" grammeme="[V, indic, praet, pl, nonRefl, act]"/>
+        <node ending="лся" grammeme="[V, indic, praet, sg, m, refl, intr]"/>
+        <node ending="л" grammeme="[V, indic, praet, sg, m, nonRefl, act]"/>
+        <node ending="з" grammeme="[V, indic, praet, sg, m, nonRefl, act]"/>
+        <node ending="с" grammeme="[V, indic, praet, sg, m, nonRefl, act]"/>
+        <node ending="ат, ят" grammeme="[V, conjugII, indic, praes, p3, pl, nonRefl, act]"/>
+        <node ending="ете, ёте" grammeme="[V, conjugI, indic, praes, p2, pl, nonRefl, act]"/>
+        <node ending="йте" grammeme="[V, imper, p2, pl, nonRefl, act]"/>
+        <node ending="ешь, ёшь" grammeme="[V, conjugI, indic, praes, p2, sg, nonRefl, act]"/>
+        <node ending="ишь" grammeme="[V, conjugII, indic, praes, p2, sg, nonRefl, act]"/>
+        <node ending="ет, ёт" grammeme="[V, conjugI, indic, praes, p3, sg, nonRefl, act]"/>
+        <node ending="ит" grammeme="[V, conjugII, indic, praes, p3, sg, nonRefl, act]"/>
+        <node ending="ются" grammeme="[V, conjI, indic, praes, p3, pl, refl, intr]"/>
+        <node ending="етесь" grammeme="[V, conjI, indic, praes, p2, pl, refl, intr]"/>
+        <node ending="ешься" grammeme="[V, conjI, indic, praes, p2, sg, refl, intr]"/>
+        <node ending="ется" grammeme="[V, conjI, indic, praes, p3, sg, refl, intr]"/>
+        <node ending="ится" grammeme="[V, conjII, indic, praes, p3, sg, refl, intr]"/>
+        <node ending="ться" grammeme="[inf, refl, intr]"/>
+        <node ending="ать, ять, уть, ють, оть, ыть, ти, чь" grammeme="[inf, conjugI, nonRefl, act]"/>
+        <node ending="ить" grammeme="[inf, conjugII, nonRefl, tran]"/>
+        <node ending="ть" grammeme="[inf, nonRefl, act]"/>
+        <node ending="аться, яться, уться, ються, оться, ыться, тись, чься" grammeme="[inf, conjugI, refl, intr]"/>
+        <node ending="иться" grammeme="[inf, conjugII, refl, intr]"/>
+        <node ending="ащий, ящий, ущий, ющий" grammeme="[partcp, praes, plen, nom, sg, m, nonRefl, act]"/>
+        <node ending="ащийся, ящийся, ущийся, ющийся" grammeme="[partcp, praes, plen, nom, sg, m, refl, act]"/>
+        <node ending="ащего, ящего, ущего, ющего" grammeme="[partcp, praes, plen, gen, sg, m, nonRefl, act], [partcp, praes, plen, acc, sg, m, nonRefl, act]"/>
+        <node ending="ащегося, ящегося, ущегося, ющегося" grammeme="[partcp, praes, plen, gen, sg, m, refl, act], [partcp, praes, plen, acc, sg, m, refl, act]"/>
+        <node ending="ащему, ящему, ущему, ющему" grammeme="[partcp, praes, plen, dat, sg, m, nonRefl, act], [partcp, praes, plen, dat, sg, n, nonRefl, act]"/>
+        <node ending="ащемуся, ящемуся, ущемуся, ющемуся" grammeme="[partcp, praes, plen, dat, sg, m, refl, act], [partcp, praes, plen, dat, sg, n, refl, act]"/>
+        <node ending="ащее, ящее, ущее, ющее" grammeme="[partcp, praes, plen, nom, sg, n, nonRefl, act], [partcp, praes, plen, acc, sg, n, nonRefl, act]"/>
+        <node ending="ащееся, ящееся, ущееся, ющееся" grammeme="[partcp, praes, plen, nom, sg, n, refl, act], [partcp, praes, plen, acc, sg, n, refl, act]"/>
+        <node ending="ащим, ящим, ущим, ющим" grammeme="[partcp, praes, plen, ins, sg, m, nonRefl, act], [partcp, praes, plen, ins, sg, n, nonRefl, act]"/>
+        <node ending="ащимся, ящимся, ущимся, ющимся" grammeme="[partcp, praes, plen, ins, sg, m, refl, act], [partcp, praes, plen, ins, sg, n, refl, act]"/>
+        <node ending="ащем, ящем, ущем, ющем" grammeme="[partcp, praes, plen, abl, sg, m, nonRefl, act], [partcp, praes, plen, abl, sg, n, nonRefl, act]"/>
+        <node ending="ащемся, ящемся, ущемся, ющемся" grammeme="[partcp, praes, plen, abl, sg, m, refl, act], [partcp, praes, plen, abl, sg, n, refl, act]"/>
+        <node ending="ащая, ящая, ущая, ющая" grammeme="[partcp, praes, plen, nom, sg, f, nonRefl, act]"/>
+        <node ending="ащаяся, ящаяся, ущаяся" grammeme="[partcp, praes, plen, nom, sg, f, refl, act]"/>
+        <node ending="ащей, ящей, ущей, ющей" grammeme="[partcp, praes, plen, gen, sg, f, nonRefl, act], [partcp, praes, plen, acc, sg, f, nonRefl, act], [partcp, praes, plen, ins, sg, f, nonRefl, act], [partcp, praes, plen, abl, sg, f, nonRefl, act]"/>
+        <node ending="ащейся, ящейся, ущейся, ющейся" grammeme="[partcp, praes, plen, gen, sg, f, refl, act], [partcp, praes, plen, acc, sg, f, refl, act], [partcp, praes, plen, ins, sg, f, refl, act], [partcp, praes, plen, abl, sg, f, refl, act]"/>
+        <node ending="ащую, ящую, ущую, ющую" grammeme="[partcp, praes, plen, acc, sg, f, nonRefl, act]"/>
+        <node ending="ащуюся, ящуюся, ущуюся, ющуюся" grammeme="[partcp, praes, plen, acc, sg, f, refl, act]"/>
+        <node ending="ащие, ящие, ущие, ющие" grammeme="[partcp, praes, plen, nom, pl, nonRefl, act], [partcp, praes, plen, acc, pl, nonRefl, act]"/>
+        <node ending="ащиеся, ящиеся, ущиеся, ющиеся" grammeme="[partcp, praes, plen, nom, pl, refl, act], [partcp, praes, plen, acc, pl, refl, act]"/>
+        <node ending="ащих, ящих, ущих, ющих" grammeme="[partcp, praes, plen, gen, pl, nonRefl, act], [partcp, praes, plen, acc, pl, nonRefl, act], [partcp, praes, plen, abl, pl, nonRefl, act]"/>
+        <node ending="ащихся, ящихся, ущихся, ющихся" grammeme="[partcp, praes, plen, gen, pl, refl, act], [partcp, praes, plen, acc, pl, refl, act], [partcp, praes, plen, abl, pl, refl, act]"/>
+        <node ending="ащим, ящим, ущим, ющим" grammeme="[partcp, praes, plen, dat, pl, nonRefl, act]"/>
+        <node ending="ащимся, ящимся, ущимся, ющимся" grammeme="[partcp, praes, plen, dat, pl, refl, act]"/>
+        <node ending="ащими, ящими, ущими, ющими" grammeme="[partcp, praes, plen, ins, pl, nonRefl, act]"/>
+        <node ending="ащимися, ящимися, ущимися, ющимися" grammeme="[partcp, praes, plen, ins, pl, refl, act]"/>
+        <node ending="мый" grammeme="[partcp, praes, plen, nom, sg, m, nonRefl, pass], [partcp, praes, plen, acc, sg, m, nonRefl, pass]"/>
+        <node ending="ись, йся" grammeme="[V, imper, p2, sg, refl, intr, act]"/>
+        <node ending="йте, ите" grammeme="[V, imper, p2, pl, nonRefl, act]"/>
+        <node ending="тесь" grammeme="[V, imper, p2, pl, refl, intr, act]"/>
+        <node ending="мого" grammeme="[partcp, praes, plen, gen, sg, m, nonRefl, pass], [partcp, praes, plen, acc, sg, m, nonRefl, pass]"/>
+        <node ending="мому" grammeme="[partcp, praes, plen, dat, sg, m, nonRefl, pass]"/>
+        <node ending="мым" grammeme="[partcp, praes, plen, ins, sg, m, nonRefl, pass]"/>
+        <node ending="мом" grammeme="[partcp, praes, plen, abl, sg, m, nonRefl, pass]"/>
+        <node ending="мое" grammeme="[partcp, praes, plen, nom, sg, n, nonRefl, pass]"/>
+        <node ending="мая" grammeme="[partcp, praes, plen, nom, sg, f, nonRefl, pass]"/>
+        <node ending="мой" grammeme="[partcp, praes, plen, gen, sg, f, nonRefl, pass], [partcp, praes, plen, ins, sg, f, nonRefl, pass], [partcp, praes, plen, abl, sg, f, nonRefl, pass]"/>
+        <node ending="моей" grammeme="[partcp, praes, plen, dat, sg, f, nonRefl, pass]"/>
+        <node ending="мые" grammeme="[partcp, praes, plen, nom, pl, nonRefl, pass], [partcp, praes, plen, acc, pl, nonRefl, pass]"/>
+        <node ending="мых" grammeme="[partcp, praes, plen, gen, pl, nonRefl, pass], [partcp, praes, plen, acc, pl, nonRefl, pass], [partcp, praes, plen, abl, pl, nonRefl, pass]"/>
+        <node ending="мым" grammeme="[partcp, praes, plen, dat, pl, nonRefl, pass]"/>
+        <node ending="мыми" grammeme="[partcp, praes, plen, ins, pl, nonRefl, pass]"/>
+        <node ending="ют" grammeme="[V, conjugI, indic, praes, p3, pl, nonRefl, tran]"/>
+        <node ending="ят" grammeme="[V, conjugII, indic, praes, p3, pl, nonRefl, tran]"/>
+        <node ending="н, т" grammeme="[partcp, praes, brev, sg, m, nonRefl, pass]"/>
+        <node ending="но, то" grammeme="[partcp, praes, brev, sg, n, nonRefl, pass]"/>
+        <node ending="на, та" grammeme="[partcp, praes, brev, sg, f, nonRefl, pass]"/>
+        <node ending="ны, ты" grammeme="[partcp, praes, brev, pl, nonRefl, pass]"/>
+        <node ending="ший" grammeme="[partcp, praet, plen, nom, sg, m, nonRefl, act], [partcp, praet, plen, acc, sg, m, nonRefl, act]"/>
+        <node ending="шего" grammeme="[partcp, praet, plen, gen, sg, m, nonRefl, act], [partcp, praet, plen, acc, sg, m, nonRefl, act], [partcp, praet, plen, gen, sg, n, nonRefl, act], [partcp, praet, plen, acc, sg, n, nonRefl, act]"/>
+        <node ending="шему" grammeme="[partcp, praet, plen, dat, sg, m, nonRefl, act], [partcp, praet, plen, dat, sg, n, nonRefl, act]"/>
+        <node ending="шему" grammeme="[partcp, praet, plen, ins, sg, m, nonRefl, act], [partcp, praet, plen, ins, sg, n, nonRefl, act], [partcp, praet, plen, dat, pl, nonRefl, act]"/>
+        <node ending="шем" grammeme="[partcp, praet, plen, abl, sg, m, nonRefl, act], [partcp, praet, plen, abl, sg, n, nonRefl, act]"/>
+        <node ending="шее" grammeme="[partcp, praet, plen, nom, sg, n, nonRefl, act], [partcp, praet, plen, acc, sg, n, nonRefl, act]"/>
+        <node ending="шая" grammeme="[partcp, praet, plen, nom, sg, f, nonRefl, act]"/>
+        <node ending="шей" grammeme="[partcp, praet, plen, gen, sg, f, nonRefl, act], [partcp, praet, plen, dat, sg, f, nonRefl, act], [partcp, praet, plen, ins, sg, f, nonRefl, act], [partcp, praet, plen, abl, sg, f, nonRefl, act]"/>
+        <node ending="шую" grammeme="[partcp, praet, plen, acc, sg, f, nonRefl, act]"/>
+        <node ending="шие" grammeme="[partcp, praet, plen, nom, pl, nonRefl, act], [partcp, praet, plen, acc, pl, nonRefl, act]"/>
+        <node ending="ших" grammeme="[partcp, praet, plen, gen, pl, nonRefl, act], [partcp, praet, plen, acc, pl, nonRefl, act], [partcp, praet, plen, abl, pl, nonRefl, act]"/>
+        <node ending="шим" grammeme="[partcp, praet, plen, dat, pl, nonRefl, act]"/>
+        <node ending="шими" grammeme="[partcp, praet, plen, ins, pl, nonRefl, act]"/>
+        <node ending="шимися" grammeme="[partcp, praet, plen, ins, pl, refl, act]"/>
+        <node ending="ный, тый" grammeme="[partcp, praet, plen, nom, sg, m, nonRefl, pass], [partcp, praet, plen, acc, sg, m, nonRefl, pass]"/>
+        <node ending="ной, той" grammeme="[partcp, praet, plen, gen, sg, f, nonRefl, pass], [partcp, praet, plen, dat, sg, f, nonRefl, pass], [partcp, praet, plen, ins, sg, f, nonRefl, pass], [partcp, praet, plen, abl, sg, f, nonRefl, pass]"/>
+        <node ending="й, и" grammeme="[V, imper, p2, sg, nonRefl, act, act]"/>
+        <node ending="у, ю" grammeme="[V, indic, praes, p1, sg, nonRefl, tran, act]"/>
+        <node ending="ом, ем, ём" grammeme="[V, conjugI, indic, praes, p1, pl, nonRefl, act]"/>
+        <node ending="ном, том" grammeme="[partcp, praet, plen, abl, sg, m, nonRefl, pass], [partcp, praet, plen, abl, sg, n, nonRefl, pass]"/>
+        <node ending="им" grammeme="[V, conjugII, indic, praes, p1, pl, nonRefl, act]"/>
+        <node ending="емся" grammeme="[V, conjI, indic, praes, p1, pl, refl]"/>
+        <node ending="ом, ем, ём" grammeme="[V, conjI, indic, praes, p1, pl, nonRefl, act]"/>
+        <node ending="юсь" grammeme="[V, indic, praes, p1, sg, refl, intr]"/>
+        <node ending="ного, того" grammeme="[partcp, praet, plen, gen, sg, m, nonRefl, pass], [partcp, praet, plen, acc, sg, m, nonRefl, pass], [partcp, praet, plen, gen, sg, n, nonRefl, pass], [partcp, praet, plen, acc, sg, n, nonRefl, pass]"/>
+        <node ending="ному, тому" grammeme="[partcp, praet, plen, dat, sg, m, nonRefl, pass], [partcp, praet, plen, dat, sg, n, nonRefl, pass]"/>
+        <node ending="ным, тым" grammeme="[partcp, praet, plen, ins, sg, m, nonRefl, pass], [partcp, praet, plen, ins, sg, n, nonRefl, pass]"/>
+        <node ending="ное, тое" grammeme="[partcp, praet, plen, nom, sg, n, nonRefl, pass], [partcp, praet, plen, acc, sg, n, nonRefl, pass]"/>
+        <node ending="ная, тая" grammeme="[partcp, praet, plen, nom, sg, f, nonRefl, pass]"/>
+        <node ending="ной, той" grammeme="[partcp, praet, plen, gen, sg, f, nonRefl, pass], [partcp, praet, plen, dat, sg, f, nonRefl, pass], [partcp, praet, plen, ins, sg, f, nonRefl, pass], [partcp, praet, plen, abl, sg, f, nonRefl, pass]"/>
+        <node ending="ные, тые" grammeme="[partcp, praet, plen, nom, pl, nonRefl, pass], [partcp, praet, plen, acc, pl, nonRefl, pass]"/>
+        <node ending="ных, тых" grammeme="[partcp, praet, plen, gen, pl, nonRefl, pass], [partcp, praet, plen, acc, pl, nonRefl, pass], [partcp, praet, plen, abl, pl, nonRefl, pass]"/>
+        <node ending="ным, тым" grammeme="[partcp, praet, plen, dat, pl, nonRefl, pass]"/>
+        <node ending="ными, тыми" grammeme="[partcp, praet, plen, ins, pl, nonRefl, pass]"/>
+        <node ending="м" grammeme="[partcp, praet, brev, sg, m, nonRefl, pass]"/>
+        <node ending="мо" grammeme="[partcp, praet, brev, sg, n, nonRefl, pass]"/>
+        <node ending="ма" grammeme="[partcp, praet, brev, sg, f, nonRefl, pass]"/>
+        <node ending="мы" grammeme="[partcp, praet, brev, pl, nonRefl, pass]"/>
+        <node ending="тся" grammeme="[V, indic, fut, p3, pl, refl, intr]"/>
+        <node ending="а, я" grammeme="[ger, nonRefl, ipf]"/>
+        <node ending="в, вши, кши, хши, сши, зши" grammeme="[ger, nonRefl, pf]"/>
+        <node ending="ась, ясь" grammeme="[ger, refl, ipf]"/>
+        <node ending="вшись" grammeme="[ger, refl, pf]"/>
+    </ending>
+</nodes>
+
+

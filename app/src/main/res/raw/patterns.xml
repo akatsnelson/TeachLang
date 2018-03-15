@@ -1,0 +1,36 @@
+<patterns>
+    <pattern name="pattern_null" />
+    <pattern
+        name="pattern_low"
+        form="true"
+        conjugntion="true"
+        grammeme="[V]" />
+    <pattern
+        name="pattern_medium"
+        form="true"
+        grammeme="[V]" />
+    <pattern
+        name="pattern_high"
+        form="true"
+        grammeme="[V]" />
+    <pattern
+        name="pattern_hard"
+        form="true"
+        grammeme="[V]" />
+    <pattern
+        name="pattern_v"
+        form="true"
+        grammeme="[V]" />
+    <pattern
+        name="pattern_inf"
+        form="true"
+        grammeme="[inf]" />
+    <pattern
+        name="pattern_partcp"
+        form="true"
+        grammeme="[partcp]" />
+    <pattern
+        name="pattern_ger"
+        form="true"
+        grammeme="[ger]" />
+</patterns>

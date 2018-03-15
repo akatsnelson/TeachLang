@@ -1,0 +1,34 @@
+<nodes_exclusions>
+    <node words="мой" grammeme="[V, imper, p2, sg], [pro, pos, sg, m]"/>
+    <node words="ешь" grammeme="[V, indic, praes, p2, sg], [V, imper, p2, sg"/>
+    <node words="поешь" grammeme="[V, indic, fut, p2, sg], [V, imper, p2, sg]"/>
+    <node words="систематизирую" grammeme="[V, conjugI, indic, praes, p1, sg], [V, conjugI, indic, fut, p1, sg]"/>
+    <node words="систематизируем" grammeme="[V, conjugI, indic, praes, p1, pl], [V, conjugI, indic, fut, p1, pl]"/>
+    <node words="систематизируешь" grammeme="[V, conjugI, indic, praes, p2, sg], [V, conjugI, indic, fut, p2, sg]"/>
+    <node words="систематизируете" grammeme="[V, conjugI, indic, praes, p2, pl], [V, conjugI, indic, fut, p2, pl]"/>
+    <node words="систематизирует" grammeme="[V, conjugI, indic, praes, p3, sg], [V, conjugI, indic, fut, p3, sg]"/>
+    <node words="систематизируют" grammeme="[V, conjugI, indic, praes, p3, pl], [V, conjugI, indic, fut, p3, pl]"/>
+    <node words="бужу" grammeme="[V, conjugII, indic, praes, p1, sg]"/>
+    <node words="будим" grammeme="[V, conjugII, indic, praes, p1, pl]"/>
+    <node words="будишь" grammeme="[V, conjugII, indic, praes, p2, sg]"/>
+    <node words="будите" grammeme="[V, conjugII, indic, praes, p2, pl]"/>
+    <node words="будит" grammeme="[V, conjugII, indic, praes, p3, sg]"/>
+    <node words="будят" grammeme="[V, conjugII, indic, praes, p3, pl]"/>
+    <node words="систематизирует" grammeme="[V, conjugI, indic, praes, p3, sg], [V, conjugI, indic, fut, p3, sg]"/>
+    <node words="систематизируют" grammeme="[V, conjugI, indic, praes, p3, pl], [V, conjugI, indic, fut, p3, pl]"/>
+    <node words="окружает" grammeme="[V, conjugI, idic, praes, p2, sg]"/>
+    <node words="увидишь" grammeme="[V, conjugII, idic, fut, p2, sg]"/>
+    <node words="заметить" grammeme="[inf, conjugI]"/>
+    <node words="сшит, побрит, одет, стерт, стёрт, выпит" grammeme="[partcp, praett, brev, sg, m, pass]"/>
+    <node words="вылез" grammeme="[V, indic, praet, p3, sg, m]"/>
+    <node words="движутся" grammeme="[V, conjugI, idic, praes, p3, pl]"/>
+    <node words="казалась" grammeme="[V, indic, praet, p3, sg, f]"/>
+    <node words="режь, пей, лей" grammeme="[V, imper, p2, sg]"/>
+    <node words="нес, нёс, вез, вёз, лез" grammeme="[V, indic, praet, p3, sg, m]"/>
+    <node words="брить, стелить, стлать, почить, удивить, бить, вить, лить, пить, шить, гнить, жить, зыбить, ушибить" grammeme="[inf, conjugI, nonrefl]"/>
+    <node words="забиться, ошибиться, биться, виться, литься, зыбиться, ушибиться, бриться, стелиться" grammeme="[inf, conjugI, refl, intr]"/>
+    <node words="смотреть, видеть, ненавидеть, зависеть, терпеть, обидеть, вертеть, слышать, дышать, гнать, держать, блестеть, болеть, велеть, вертеть, видеть, висеть, глядеть, гореть, греметь, гудеть, гундеть, дудеть, зависеть, звенеть, зреть, смотреть, зудеть, кипеть, кишеть, коптеть, корпеть, кряхтеть, лететь, ненавидеть, обидеть, пыхтеть, свербеть, свиристеть, свистеть, сидеть, сипеть, скорбеть, скрипеть, смердеть, смотреть, лечить, тарахтеть, терпеть, хотеть, храпеть" grammeme="[inf, conjugII, nonrefl]"/>
+    <node words="смотреться, видеться, обидеться, вертеться, гнаться, держаться, бояться, состояться" grammeme="[inf, conjugII, refl, intr]"/>
+    <node words="хрустеть, шелестеть, шипеть, шуметь, бежать, бренчать, брюзжать, бурчать, верещать, визжать, ворчать, дребезжать, дышать, держать, дрожать, жужжать, журчать, звучать, кричать, лежать, молчать, мчать, мычать, пищать, рычать, слышать, спать, стучать, торчать, трещать, урчать, фырчать, шуршать, шкварчать, стоять" grammeme="[inf, conjugII, nonrefl]"/>
+    <node words="будучи, играючи, испекши" grammeme="[ger, nonrefl, ipf]"/>
+</nodes_exclusions>
