@@ -3,6 +3,8 @@ package by.akatsnelson.teachlang
 import android.Manifest
 import android.annotation.SuppressLint
 import android.app.FragmentTransaction
+import android.content.Context
+import android.content.SharedPreferences
 import android.content.pm.ActivityInfo
 import android.content.pm.PackageManager
 import android.os.Build
@@ -40,13 +42,16 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         MainActivity.patterns = XmlReader.readPattern(ctx.resources.openRawResource(R.raw.patterns))
         MainActivity.ballsService = BallsService()
 
-        print(patterns)
+        val sPref: SharedPreferences = ctx.getPreferences(Context.MODE_PRIVATE)
+        val ed = sPref.getInt("PATTERN_NOW", 0)
+        patternNow = languageService.patterns[ed]
 
         fMain = MainFragment()
         fBuildWordGame = BuildWordGameFragment()
         fParse = ParseFragment()
         fSettings = SettingsFragment()
         fInfo = InfoFragment()
+
 
 
         if (ContextCompat.checkSelfPermission(this,
@@ -130,6 +135,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         lateinit var ctx: AppCompatActivity
         lateinit var languageService: LanguageService
         lateinit var fMain: MainFragment
+        @SuppressLint("StaticFieldLeak")
         lateinit var fBuildWordGame: BuildWordGameFragment
         @SuppressLint("StaticFieldLeak")
         lateinit var fParse: ParseFragment

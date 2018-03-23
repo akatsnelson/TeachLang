@@ -16,10 +16,10 @@
             android:id="@+id/nav_parse"
             android:icon="@drawable/ic_search_black_24dp"
             android:title="@string/nav_parse" />
-        <item
+       <!-- <item
             android:id="@+id/nav_achievement"
             android:icon="@drawable/ic_assignment_turned_in_black_24dp"
-            android:title="@string/nav_achievement" />
+            android:title="@string/nav_achievement" />-->
 
         <item
             android:id="@+id/nav_settings"

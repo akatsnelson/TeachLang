@@ -4,19 +4,33 @@
         name="pattern_low"
         form="true"
         conjugntion="true"
-        grammeme="[V]" />
+        case="false"
+        mood="false"
+        brevity="false"/>
     <pattern
         name="pattern_medium"
         form="true"
-        grammeme="[V]" />
+        conjugntion="true"
+        reflexiveness="true"
+        mood="true"
+        transitiviness="true" />
     <pattern
         name="pattern_high"
         form="true"
-        grammeme="[V]" />
+        reflexiveness="true"
+        mood="true"
+        transitiviness="true"
+        tense="true"
+        number="true" />
     <pattern
         name="pattern_hard"
         form="true"
-        grammeme="[V]" />
+        reflexiveness="true"
+        tense="true"
+        number="true"
+        brevity="true"
+        case="true"
+        grammeme="[partcp]"/>
     <pattern
         name="pattern_v"
         form="true"

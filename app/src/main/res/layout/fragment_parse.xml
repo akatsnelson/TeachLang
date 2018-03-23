@@ -105,6 +105,7 @@
             tools:ignore="HardcodedText"
             android:gravity="end" />
 
+
     </RelativeLayout>
 
 </FrameLayout>

@@ -42,7 +42,7 @@ class ParseFragment : Fragment() {
             if (textField.text.toString().trim({ it <= ' ' }) == "") {
                 /*Toast toast = Toast.makeText(v.getApplicationContext(), "Введите глагол", Toast.LENGTH_LONG);
                     //toast.show();*/
-                Snackbar.make(view, resources.getString(R.string.enterGlagol_name), Snackbar.LENGTH_SHORT).setAction("Action", null).show()
+                Snackbar.make(view, resources.getString(R.string.enter_name), Snackbar.LENGTH_SHORT).setAction("Action", null).show()
                 text.text = resources.getString(R.string.answer)
             } else {
                 val entWord = textField.text.toString().trim({ it <= ' ' })

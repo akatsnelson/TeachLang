@@ -6,9 +6,9 @@ package by.akatsnelson.teachlang.model
 class Grammeme {
     var form: Form? = null
     var mood: Mood? = null
-    var tnase: Tnase? = null
+    var tense: Tense? = null
     var number: Number? = null
-    var preson: Preson? = null
+    var person: Person? = null
     var gender: Gender? = null
     var aspect: Aspect? = null
     var voice: Voice? = null
@@ -27,7 +27,7 @@ class Grammeme {
         indic, imper, cond
     }
 
-    enum class Tnase {
+    enum class Tense {
         praet, praes, fut
     }
 
@@ -35,7 +35,7 @@ class Grammeme {
         sg, pl
     }
 
-    enum class Preson {
+    enum class Person {
         p1, p2, p3
     }
 
@@ -82,7 +82,7 @@ class Grammeme {
             for (field in declaredFields) {
                 if (field.name == fieldName) {
                     field.isAccessible = true
-                    return field.get(grammeme).toString()
+                    return "${field.get(grammeme)}"
                 }
             }
             return "null"
@@ -97,9 +97,9 @@ class Grammeme {
 
         if (form != other.form) return false
         if (mood != other.mood) return false
-        if (tnase != other.tnase) return false
+        if (tense != other.tense) return false
         if (number != other.number) return false
-        if (preson != other.preson) return false
+        if (person != other.person) return false
         if (gender != other.gender) return false
         if (aspect != other.aspect) return false
         if (voice != other.voice) return false
@@ -115,9 +115,9 @@ class Grammeme {
     override fun hashCode(): Int {
         var result = form?.hashCode() ?: 0
         result = 31 * result + (mood?.hashCode() ?: 0)
-        result = 31 * result + (tnase?.hashCode() ?: 0)
+        result = 31 * result + (tense?.hashCode() ?: 0)
         result = 31 * result + (number?.hashCode() ?: 0)
-        result = 31 * result + (preson?.hashCode() ?: 0)
+        result = 31 * result + (person?.hashCode() ?: 0)
         result = 31 * result + (gender?.hashCode() ?: 0)
         result = 31 * result + (aspect?.hashCode() ?: 0)
         result = 31 * result + (voice?.hashCode() ?: 0)

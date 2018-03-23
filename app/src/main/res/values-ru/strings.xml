@@ -50,18 +50,17 @@
     <string name="enter_name">Введите глагол</string>
     <string name="enter_btn">Анализировать</string>
     <string name="versionAndAuthor">©A.Katsnelson, 2018 Версия: 1.0</string>
-    <string name="navigation_drawer_open"></string>
-    <string name="navigation_drawer_close"></string>
-    <string name="action_settings"></string>
+    <string name="navigation_drawer_open">" "</string>
+    <string name="navigation_drawer_close">" "</string>
+    <string name="action_settings">" "</string>
     <string name="nav_settings">Настройки</string>
     <string name="nav_about_program">О программе</string>
     <string name="nav_main" >Главная</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="about_program" />
+    <string name="about_program" >Программа TeachLang была создана AKatsnelson при поддержке Господа Бога для помощи преподователям и учащимся/студентам в сфере морфологического анализа. В дальнейшем ждём новых функций и режимов! </string>
     <string name="parsing">разбор</string>
-    <string name="enterGlagol_name" />
     <string name="nav_parse">Анализатор</string>
     <string name="nav_buildWordGame">Построй слово</string>
     <string name="letsPlay">Давай играть</string>
@@ -83,5 +82,14 @@
     <string name="pattern_inf">Тема инфинитив</string>
     <string name="pattern_partcp">Тема причастие</string>
     <string name="pattern_ger">Тема деепричастие</string>
-    <string name="nav_achievement">Достижеия</string>
+    <string name="nav_achievement">Достижения</string>
+    <string name="for_what">Для чеего нужна и как использовать программу</string>
+    <string name="primerOne">Пример использования 1: Преподаватель может сомневаться в уровне знаний ученика и дать ему задание набрать 50 баллов.</string>
+    <string name="pos">притяжательное</string>
+    <string name="nonrRfl">невозвр.</string>
+    <string name="enterTheForm">Введите форму</string>
+    <string name="patter_low">Лёгкий</string>
+    <string name="patter_null">Без уровня сложности</string>
+    <string name="pro">местоимение</string>
+    <string name="primerTwo">Пример использования 2: Вы можете проверить себя и соревноваться с друзьями кто больше наберёт баллов.</string>
 </resources>

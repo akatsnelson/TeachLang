@@ -1,5 +1,6 @@
 package by.akatsnelson.teachlang.service.game
 
+import android.annotation.SuppressLint
 import android.content.Context.MODE_PRIVATE
 import android.content.SharedPreferences
 import by.akatsnelson.teachlang.MainActivity.Companion.ctx
@@ -20,6 +21,7 @@ class BallsService {
         }
     }
 
+    @SuppressLint("ApplySharedPref")
     fun addBalls(ballsToAdd: Int, game: BallsService.Games): Pair<Int, Boolean> {
         val gameBallsField = BallsService::class.java.declaredFields.find { el -> el.name == game.name }
         gameBallsField!!.isAccessible = true
@@ -29,6 +31,7 @@ class BallsService {
         val gameOver: Boolean
         gameOver = if (balls <= 0) {
             gameBallsField.setInt(this, 0)
+            balls = gameBallsField.getInt(this)
             true
         } else false
         val sPref: SharedPreferences = ctx.getPreferences(MODE_PRIVATE)

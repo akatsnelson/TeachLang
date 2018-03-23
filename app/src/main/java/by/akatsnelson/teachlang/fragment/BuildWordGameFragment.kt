@@ -40,7 +40,7 @@ class BuildWordGameFragment : Fragment() {
         enterAnswerInBuildWordGame.setOnClickListener({ view ->
             val word = answerInBuildWordGame.text.toString().trim({ it <= ' ' })
             if (word == "") {
-                Snackbar.make(view, resources.getString(R.string.enterGlagol_name), Snackbar.LENGTH_SHORT).setAction("Action", null).show()
+                Snackbar.make(view, resources.getString(R.string.enter_name), Snackbar.LENGTH_SHORT).setAction("Action", null).show()
             } else {
                 val node = ParseService().parse(word, MainActivity.languageService.nodes, MainActivity.languageService.nodeExclusion)
                 var balls: Int? = null

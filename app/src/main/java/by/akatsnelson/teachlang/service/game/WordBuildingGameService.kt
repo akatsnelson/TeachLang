@@ -22,18 +22,18 @@ class WordBuildingGameService {
         var random = Random()
         var count = 0
         while (true) {
-            val i = random.nextInt(allNodes!!.size)
+            val i = random.nextInt(allNodes!!.size-1)
             val node = allNodes!![i]
             allNodes!!.remove(allNodes!![i])
             if (count >= 2) {
                 throw RuntimeException("Incorrect pattern")
             }
-            if (allNodes!!.size == 0) {
-                nodes!!.forEach { node -> allNodes!!.addAll(node) }
+            if (allNodes!!.size == 1) {
+                nodes!!.forEach { nodeL -> allNodes!!.addAll(nodeL) }
                 count++
             }
             if (MainActivity.patternNow != null) {
-                if (MainActivity.patternNow!!.isCorrectForPattern(allNodes!![i])) {
+                if (MainActivity.patternNow!!.isCorrectForPattern(node)) {
                     return node
                 }
             } else {
